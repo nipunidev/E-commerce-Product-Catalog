@@ -1,0 +1,46 @@
+.user-management {
+  padding: 2rem;
+}
+
+.users-table {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.users-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.users-table th,
+.users-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.users-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.users-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.edit-btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.delete-btn {
+  background-color: var(--danger-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}

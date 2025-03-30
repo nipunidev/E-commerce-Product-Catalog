@@ -1,0 +1,25 @@
+.product-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.product-filter input,
+.product-filter select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.product-filter input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.product-filter select {
+  background-color: white;
+  cursor: pointer;
+}
